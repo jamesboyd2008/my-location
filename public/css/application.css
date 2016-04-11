@@ -1,0 +1,52 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+ul.errors {
+  color: red;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+ul.alerts {
+  color: purple;
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+ul.menu {
+  padding: 0;
+}
+
+ul.menu li {
+  display: inline;
+}
+
+ul.menu li a {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 2px 2px 0 0;
+}
+
+ul.menu li a:hover {
+    background-color: darkgrey;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
